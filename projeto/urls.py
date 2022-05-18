@@ -30,15 +30,15 @@ ou efeito colateral no servidor
 
 
 def home(request):
-    return HttpResponse('Home')
+    return HttpResponse('Pagina Home')
 
 
 def contato(request):
-    return HttpResponse('COntato')
+    return HttpResponse('Pagina Contato')
 
 
 def sobre(request):
-    return HttpResponse('sobre')
+    return HttpResponse('Pagina Sobre')
 
 
 urlpatterns = [
