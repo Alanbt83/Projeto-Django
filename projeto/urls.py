@@ -22,10 +22,8 @@ from django.urls import path
 # GET = solicita a representação de um recurso especifico
 e deve retornar apenas dados
 
-Post = usado para submeter uam entidade aum recurso especifico, 
-frequentemente causando uma mudança no estado do recurso
+Post = usado para submeter uma entidade a um recurso especifico,frequentemente causando uma mudança no estado do recurso
 ou efeito colateral no servidor
-
 '''
 
 
