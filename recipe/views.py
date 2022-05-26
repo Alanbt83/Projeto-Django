@@ -7,8 +7,3 @@ def home(request):
     return render(request, 'recipe/pages/home.html', context={
         'name': 'Alan Barbosa Taborda',
     })
-
-
-
-
-
